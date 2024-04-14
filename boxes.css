@@ -1,0 +1,39 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body, html {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+}
+.box {
+    position: absolute;    
+    width: 100px;
+    height: 100px;
+    bottom: 50%;
+    background-color: rgb(255, 0, 0);
+}
+.box1 {
+    position: absolute;
+    align-self: center;
+    width: 100px;
+    height: 100px;
+    z-index: 3;
+    bottom: 45%;
+    background-color: rgb(25, 0, 255);
+}
+.box2 {
+    position: absolute;
+    align-self: flex-end;
+    width: 100px;
+    height: 100px;
+    bottom: 40%;
+    background-color: rgb(0, 255, 21);
+}
